@@ -30,7 +30,7 @@ then to show our original and gray scale image :</br>
 Now, as our camera is okay so we are ready for face and eye detetction. Here we have used building cascade classifier form OpenCv. </br>
 
 -face_c = cv2.CascadeClassifier('Cascades/haarcascade_frontalface_default.xml')</br>
-eye_c = cv2.CascadeClassifier('haarcascade_eye.xml')</br>
+-eye_c = cv2.CascadeClassifier('haarcascade_eye.xml')</br>
 
 #we may create our own classifier but here I have used trained classifier from OpenCv </br>
 Then We have to call our classifier function, passing to some very important parameters like scale factor, number of neighbours and minimum size of the detected face. </br>
